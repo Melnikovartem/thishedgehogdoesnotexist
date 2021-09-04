@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-random-photo',
@@ -9,7 +8,7 @@ import { environment } from '../../environments/environment';
 export class RandomPhotoComponent implements OnInit {
 
   number = 9900 + Math.floor(Math.random() * 100);
-  src = `${environment.imgs}/seed${9900 + Math.round(Math.random() * 100)}.png${environment.production ? "?raw=true" : ""}`;
+  src = `./assets/imgs/seed${9900 + Math.round(Math.random() * 100)}.png`;
   constructor() { }
 
   ngOnInit(): void { }
