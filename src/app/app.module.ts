@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RandomPhotoComponent } from './random-photo/random-photo.component';
+import { InfoOverlayComponent } from './info-overlay/info-overlay.component';
 
 @NgModule({
   imports: [
@@ -11,6 +12,7 @@ import { RandomPhotoComponent } from './random-photo/random-photo.component';
   declarations: [
     AppComponent,
     RandomPhotoComponent,
+    InfoOverlayComponent,
   ],
   bootstrap: [
     AppComponent

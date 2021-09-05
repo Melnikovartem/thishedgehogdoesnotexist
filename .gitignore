@@ -1,6 +1,10 @@
 # mac system file
 .DS_store
 
+#some folder for big files
+dist
+imgs
+
 # Logs
 logs
 *.log
